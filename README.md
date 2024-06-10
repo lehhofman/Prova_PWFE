@@ -21,6 +21,6 @@ Front Station é um site voltado para explorar as possibilidades que podem ser f
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/SEU_USUARIO/front-station.git
+   git clone https://github.com/lehhofman/Prova_PWFE.git
    
 2. Abra o Arquivo index.html no seu navegador.
