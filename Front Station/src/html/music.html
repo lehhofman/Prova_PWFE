@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="../style/music.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../img/logo.jpg" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../html/home.html">Home</a></li>
+                <li><a href="#">Music Station</a></li>
+                <li><a href="./quiz.html">Quiz Station</a></li>
+                <li><a href="./game.html">Game Station</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main">
+        <h1>Music Player</h1>
+        <div class="music-player">
+            <div class="current-song">
+                <img id="currentSongImage" src="" class="currentSongImage" alt="Current Song Image">
+                <p id="currentSongTitle" class="currentSongTitle"></p>
+            </div>
+            <audio id="audioPlayer" controls>
+                Your browser does not support the audio element.
+            </audio>
+            <div id="playerControls" class="controls">
+                <button id="prevBtn" class="controlBtn">&#9664;&#9664;</button>
+                <button id="playBtn" class="controlBtn">Play</button>
+                <button id="nextBtn" class="controlBtn">&#9654;&#9654;</button>
+            </div>
+        </div>
+        
+        <div class="playlist">
+            <ul id="playlist">
+                <li data-src="../music/cold1.mp3" class="song-item">
+                    <img src="../music/img/cold1.jpg" class="coverImage" alt="Album Cover">
+                    <p class="song-title">Paradise</p>
+                </li>
+                <li data-src="../music/char1.mp3" class="song-item">
+                    <img src="../music/img/char1.jpg" class="coverImage" alt="Album Cover">
+                    <p class="song-title">Céu Azul</p>
+                </li>
+                <li data-src="../music/alok3.mp3" class="song-item">
+                    <img src="../music/img/alok3.jpg" class="coverImage" alt="Album Cover">
+                    <p class="song-title">Alive</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="../js/music.js"></script>
+</body>
+</html>
